@@ -2,7 +2,14 @@
     <string name="app_name">kotlinTute</string>
 
     <string name="txtView1"> Enter your year of birth</string>
-    <string name="txtView2"> Age : </string>
+
     <string name="txtEdit1"> </string>
+    <string name="txtEdit2"> </string>
+    <string name="txtEdit3"> </string>
+
+    <string name="txtView2"> Years : </string>
+    <string name="txtView3"> Months : </string>
+    <string name="txtView4"> Days : </string>
+
     <string name="btn1"> Submit </string>
 </resources>

@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
     fun onSubmit(view:View){
         val currentYear = Calendar.getInstance().get(Calendar.YEAR)      //val is for non changing variables, otherwise use var when declaring
-        txtView2.text="Age :   " + (currentYear - txtEdit1.text.toString().toInt())
+        val currentMonth = Calendar.getInstance().get(Calendar.MONTH)
+        val currentDay= Calendar.getInstance().get(Calendar.DATE)
+
+        txtView4.text="Day :   " + (currentDay - txtEdit3.text.toString().toInt())
+        txtView3.text="Month :   " + (currentMonth - txtEdit2.text.toString().toInt())
+        txtView2.text="Years :   " + (currentYear - txtEdit1.text.toString().toInt())
     }
 }
