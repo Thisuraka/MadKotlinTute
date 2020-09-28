@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kotlinTute</string>
+
+    <string name="txtView1"> Enter your year of birth</string>
+    <string name="txtView2"> Age : </string>
+    <string name="txtEdit1"> </string>
+    <string name="btn1"> Submit </string>
+</resources>
